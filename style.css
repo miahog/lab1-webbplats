@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(75, 90, 75);
+    font-size: 1em;
+}
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    width: 96%;
+    max-width: 1170px;
+    padding: 2%;
+
+}
+.full-width {
+    width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px 12px;
+}

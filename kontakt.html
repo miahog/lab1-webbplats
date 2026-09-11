@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktsida</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/Bild1.jpg" alt="Bild Omodhos" class="full-width">
+            <p><b>Omodos Cypern</b></p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="hobby.html">Omodos</a></li>
+                    <li><a href="kontakt.html">Kontaktsida</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Kontaktformulär</h1>
+            <form action="mailto:miho2603@student.miun.se" method="post" enctype="text/plain">
+                <div>
+                    <label for="namn">Namn:</label><br>
+                    <input type="text" id="namn" name="namn" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-post:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Meddelande:</label><br>
+                    <textarea id="message" name="message" style="width: 40%"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="accept" name="accept" required>
+                    <label for="accept">Jag godkänner att mina uppgifter skickas</label>
+                </div>
+                <br>
+                <button type="submit">Skicka</button>
+            </form>
+            <h2>Kontaktuppgifter</h2>
+            <p>Mia Höglund<br>
+                Mejla mig direkt: <a href="mailto:miho2603@student.miun.se">Skicka e-post</a></p>
+                <br>
+        </main>
+        <footer style="text-align: center;"><b>© 2026 Mia Höglund - <a href="kontakt.html">Kontaktsida</a></b></footer>
+    </div>
+</body>
+
+</html>

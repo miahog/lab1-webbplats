@@ -20,10 +20,10 @@ Netlify: https://dapper-mooncake-cd3bb6.netlify.app/
 - Man vill sällan riskera att förstöra main (huvudversionen). Därför kan man testa och göra ändringar i branches och se så att de fungerar innan man ändrar i main.
 
 ### Vad händer rent praktiskt när man gör en merge?
-Man kopplar ihop ändringar från en branch till en annan branch. Det kan dock uppstå konflikter som behöver lösas manuellt, detta kan bero på ändringar av t.ex. samma kodrad. 
+- Man kopplar ihop ändringar från en branch till en annan branch. Det kan dock uppstå konflikter som behöver lösas manuellt, detta kan bero på ändringar av t.ex. samma kodrad. 
 
 ### Vad är skillnaden mellan att pusha till GitHub och att publicera direkt på t.ex. Netlify?
-När man publicerar en webbplats direkt på Netlify så blir den synlig för besökare på internet. När man pushar till Github så laddar man upp kod och historik till sitt Github repo.
+- När man publicerar en webbplats direkt på Netlify så blir den synlig för besökare på internet. När man pushar till Github så laddar man upp kod och historik till sitt Github repo.
 
 ### Om du vill exkludera någon fil i projektet från versionshanteringen, hur gör du då?
-Då kan man göra så att man skapar en .gitignore-fil och då kommer git att ignorera just den mappen/filen. 
+- Då kan man göra så att man skapar en .gitignore-fil och då kommer git att ignorera just den mappen/filen. 
